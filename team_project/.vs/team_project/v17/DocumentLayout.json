@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sources\\team-project\\team_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\IRsensor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:IRsensor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\motor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:motor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "motor02.cpp",
+              "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\motor02.cpp",
+              "RelativeDocumentMoniker": "motor02.cpp",
+              "ToolTip": "C:\\Sources\\team-project\\team_project\\motor02.cpp",
+              "RelativeToolTip": "motor02.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T03:21:30.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "motor.cpp",
+              "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\motor.cpp",
+              "RelativeDocumentMoniker": "motor.cpp",
+              "ToolTip": "C:\\Sources\\team-project\\team_project\\motor.cpp",
+              "RelativeToolTip": "motor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T02:04:09.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRsensor.cpp",
+              "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\IRsensor.cpp",
+              "RelativeDocumentMoniker": "IRsensor.cpp",
+              "ToolTip": "C:\\Sources\\team-project\\team_project\\IRsensor.cpp",
+              "RelativeToolTip": "IRsensor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T02:03:17.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "team_project.cpp",
+              "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\team_project.cpp",
+              "RelativeDocumentMoniker": "team_project.cpp",
+              "ToolTip": "C:\\Sources\\team-project\\team_project\\team_project.cpp",
+              "RelativeToolTip": "team_project.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T02:02:52.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
