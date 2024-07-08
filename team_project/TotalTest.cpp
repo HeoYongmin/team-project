@@ -163,7 +163,7 @@ bool detectColor() {
 
     // 색상 판단 및 LED와 서보모터 제어
     if (red >= RED_MIN && red <= RED_MAX && green >= GREEN_MIN && green <= GREEN_MAX && blue >= BLUE_MIN && blue <= BLUE_MAX) {
-        if (red > green && red > blue && red > 200 && red < 700) {
+        if (red > green && red > blue && red > 200 && red < 700) { // red > 200 && red < 700 부분 추가
             Serial.println("빨간색 감지");
             setLEDColor(255, 0, 0);  // 빨간색 LED
             servo.write(90);  // 서보모터를 90도 위치로 이동

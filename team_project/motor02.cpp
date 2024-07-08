@@ -1,6 +1,6 @@
 // 모터 제어 변수 물체 감지되면 멈추고 다시 진행
-int motorSpeedPin = 10; // 1번 모터 회전 속도 
-int motorDirectionPin = 12; // 모터 방향제어
+int motorSpeedPin = 11; // 1번 모터 회전 속도 
+int motorDirectionPin = 13; // 모터 방향제어
 String input = ""; // 입력을 저장할 변수
 
 // 적외선 센서 변수

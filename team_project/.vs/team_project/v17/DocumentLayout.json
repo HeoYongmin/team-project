@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:TotalTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\motor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:motor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\IRsensor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:IRsensor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:team_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:motor02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|C:\\Sources\\team-project\\team_project\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C33D93A-2B1D-472C-92B1-B67EFF110731}|team_project.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "TotalTest.cpp",
               "ToolTip": "C:\\Sources\\team-project\\team_project\\TotalTest.cpp",
               "RelativeToolTip": "TotalTest.cpp",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAAwMYAAAAAAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAKwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-08T07:07:59.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "test.cpp",
               "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\test.cpp",
               "RelativeDocumentMoniker": "test.cpp",
@@ -68,33 +68,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "motor02.cpp",
               "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\motor02.cpp",
               "RelativeDocumentMoniker": "motor02.cpp",
               "ToolTip": "C:\\Sources\\team-project\\team_project\\motor02.cpp",
               "RelativeToolTip": "motor02.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-04T03:21:30.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "motor.cpp",
               "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\motor.cpp",
               "RelativeDocumentMoniker": "motor.cpp",
               "ToolTip": "C:\\Sources\\team-project\\team_project\\motor.cpp",
               "RelativeToolTip": "motor.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-04T02:04:09.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IRsensor.cpp",
               "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\IRsensor.cpp",
               "RelativeDocumentMoniker": "IRsensor.cpp",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "team_project.cpp",
               "DocumentMoniker": "C:\\Sources\\team-project\\team_project\\team_project.cpp",
               "RelativeDocumentMoniker": "team_project.cpp",
