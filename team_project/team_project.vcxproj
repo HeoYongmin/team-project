@@ -131,6 +131,8 @@
     <ClCompile Include="motor.cpp" />
     <ClCompile Include="motor02.cpp" />
     <ClCompile Include="team_project.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="TotalTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
