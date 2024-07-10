@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Totaltest02.cpp",
               "ToolTip": "C:\\Sources\\team-project\\team_project\\Totaltest02.cpp",
               "RelativeToolTip": "Totaltest02.cpp",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAIkAAAAVAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAACcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-09T08:23:53.066Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "TotalTest.cpp",
               "ToolTip": "C:\\Sources\\team-project\\team_project\\TotalTest.cpp",
               "RelativeToolTip": "TotalTest.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAaAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAF0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-08T07:07:59.114Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "test.cpp",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAABYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-08T01:57:55.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T01:57:55.405Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "motor02.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T03:21:30.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T03:21:30.916Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "motor.cpp",
               "ViewState": "AQIAACcAAAAAAAAAAAAAABMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T02:04:09.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T02:04:09.386Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "IRsensor.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T02:03:17.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T02:03:17.732Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "team_project.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T02:02:52.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T02:02:52.754Z"
             }
           ]
         }
