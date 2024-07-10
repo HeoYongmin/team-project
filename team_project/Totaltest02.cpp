@@ -1,5 +1,5 @@
 /*
-색상감지 1번으로 변경, 서브모터 문제는 딜레이 문제인것 같고 위로 따로 빼기
+색상감지 1번으로 변경 / 서브모터 동작 위로 빼고 딜레이 조심
 */
 #include <Servo.h>                      // 서보모터 라이브러리 불러오기
 #include <Adafruit_NeoPixel.h>
@@ -17,6 +17,17 @@
 #define GREEN_MAX 500
 #define BLUE_MIN 0
 #define BLUE_MAX 500
+
+
+String red1 = "RED";
+String redbox = "RED BOX";
+String blue1 = "BLUE";
+String bluebox = "BLUE BOX";
+String green1 = "GREEN";
+String greenbox = "GREEN BOX";
+
+
+
 
 // set 90, 145,180
 Servo servo;                            // 서보모터 객체를 생성
@@ -94,8 +105,7 @@ void loop() {
     if (isMotorRunning && val < 300) {
         if (isForward) {
             Detect_Forward();
-            //detectColor();
-            //delay(5000);
+
         }
         else {
             Detect_Backward();
@@ -105,7 +115,7 @@ void loop() {
 
 
 void Detect_Forward() { // 물건 감지 함수 --> 차후에 물건이 감지되고 위즈카에 신호 보내는 코드 추가해야함!!!!
-    Serial.println("물건이 감지되었습니다.");
+    //Serial.println("물건이 감지되었습니다.");
     motorStop();
     delay(2000);
     int result = detectColor();
@@ -139,18 +149,18 @@ void motorForward() {
     digitalWrite(motorDirectionPin, LOW);
     analogWrite(motorSpeedPin, 75);
     servo.write(90);
-    Serial.println("모터가 정방향으로 동작합니다.");
+    //Serial.println("모터가 정방향으로 동작합니다.");
 }
 
 void motorBackward() {
     digitalWrite(motorDirectionPin, LOW);
     analogWrite(motorSpeedPin, 75);
-    Serial.println("모터가 역방향으로 동작합니다.");
+    //Serial.println("모터가 역방향으로 동작합니다.");
 }
 
 void motorStop() {
     digitalWrite(motorSpeedPin, LOW); // 모터 멈춤
-    Serial.println("모터가 멈췄습니다.");
+    //Serial.println("모터가 멈췄습니다.");
     servo.write(90);
 }
 
@@ -167,39 +177,37 @@ int detectColor() {
 
     tcs.getRawData(&red, &green, &blue, &clear);  // 색상 감지 센서에서 측정 값 받아오기
 
-    Serial.print("R: ");
-    Serial.print(red);  // 시리얼 모니터에 빨간색 값 출력
-    Serial.print(" G: ");
-    Serial.print(green);  // 시리얼 모니터에 초록색 값 출력
-    Serial.print(" B: ");
-    Serial.println(blue);  // 시리얼 모니터에 파란색 값 출력
+    //Serial.print("R: ");
+    //Serial.print(red);  // 시리얼 모니터에 빨간색 값 출력
+    //Serial.print(" G: ");
+    //Serial.print(green);  // 시리얼 모니터에 초록색 값 출력
+    //Serial.print(" B: ");
+    //Serial.println(blue);  // 시리얼 모니터에 파란색 값 출력
 
     // 색상 판단 및 LED와 서보모터 제어
     if (red >= RED_MIN && red <= RED_MAX && green >= GREEN_MIN && green <= GREEN_MAX && blue >= BLUE_MIN && blue <= BLUE_MAX) {
         if (red > green && red > blue && red > 200 && red < 700) {
-            Serial.println("빨간색 감지");
+            //Serial.println(red1);
+            Serial.println(red1 + "," + redbox);
             setLEDColor(255, 0, 0);  // 빨간색 LED
-            //servo.write(90);  // 서보모터를 90도 위치로 이동
             return 1;
         }
         else if (green > red && green > blue) {
-            Serial.println("초록색 감지");
+            Serial.println(green1 + "," + greenbox);
             setLEDColor(0, 255, 0);  // 초록색 LED
-            //servo.write(180);  // 서보모터를 180도 위치로 이동
+
             return 2;
 
         }
         else if (blue > red && blue > green) {
-            Serial.println("파란색 감지");
+            Serial.println(blue1 + "," + bluebox);
             setLEDColor(0, 0, 255);  // 파란색 LED
-            //servo.write(145);  // 서보모터를 145도 위치로 이동
             return 3;
 
         }
         else {
             Serial.println("알 수 없는 색상");
             setLEDColor(0, 0, 0);  // LED 끄기
-            //servo.write(90);  // 서보모터를 기본 위치로 이동
             return 0;
         }
     }
@@ -208,7 +216,6 @@ int detectColor() {
         setLEDColor(0, 0, 0);  // LED 끄기
         return 0;
 
-        //servo.write(90);  // 서보모터를 기본 위치로 이동
     }
-    //delay(1000);  // 1초마다 측정하고 출력
+
 }
