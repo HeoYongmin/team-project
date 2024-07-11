@@ -101,7 +101,7 @@ namespace teamproject_2024 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/teamproject-2024;component/dbaddpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/teamproject-2024;V1.0.0.0;component/dbaddpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DbAddPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
