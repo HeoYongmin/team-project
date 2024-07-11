@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj": {}
+    "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj": {}
   },
   "projects": {
-    "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj": {
+    "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj",
+        "projectUniqueName": "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj",
         "projectName": "teamproject-2024",
-        "projectPath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj",
+        "projectPath": "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\obj\\",
+        "outputPath": "C:\\Sources\\team-project\\teamproject-2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

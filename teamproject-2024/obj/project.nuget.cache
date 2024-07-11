@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bcqJ1aY82Fg=",
+  "dgSpecHash": "NpyOVBKiXa4=",
   "success": true,
-  "projectFilePath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj",
+  "projectFilePath": "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
