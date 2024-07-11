@@ -12,13 +12,18 @@
   <ItemGroup>
     <None Remove="Image\23683_14415_4015.jpg" />
     <None Remove="Image\box.png" />
-    <None Remove="Image\Logistic.png" />
+    <None Remove="Image\graph.png" />
     <None Remove="Image\search.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="LiveChartsCore" Version="2.0.0-rc2" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-rc2" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc2" />
     <PackageReference Include="MahApps.Metro" Version="2.4.10" />
     <PackageReference Include="MahApps.Metro.IconPacks" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageReference Include="System.IO.Ports" Version="8.0.0" />
   </ItemGroup>
 
@@ -29,7 +34,9 @@
     <Resource Include="Image\box.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Image\Logistic.png" />
+    <Resource Include="Image\graph.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Image\search.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

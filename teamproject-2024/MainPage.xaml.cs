@@ -44,5 +44,9 @@ namespace teamproject_2024
             this.NavigationService.Navigate(new InventoryPage());
         }
 
+        private void BtnGraph_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new GraphPage());
+        }
     }
 }

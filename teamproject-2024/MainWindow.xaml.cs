@@ -63,6 +63,9 @@ namespace teamproject_2024
                 case "INVENTORYPAGE":
                     TxtTitle.Text = "상품 조회";
                     break;
+                case "GRAPHPAGE":
+                    TxtTitle.Text = "재고 현황";
+                    break;
                 default:
                     TxtTitle.Text = "스마트 물류 서비스";
                     break;

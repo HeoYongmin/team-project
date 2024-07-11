@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj": {}
+    "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj": {}
   },
   "projects": {
-    "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj": {
+    "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj",
+        "projectUniqueName": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj",
         "projectName": "teamproject-2024",
-        "projectPath": "C:\\Sources\\team-project\\teamproject-2024\\teamproject-2024.csproj",
+        "projectPath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\teamproject-2024.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Sources\\team-project\\teamproject-2024\\obj\\",
+        "outputPath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,18 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "MahApps.Metro": {
               "target": "Package",
               "version": "[2.4.10, )"
@@ -54,6 +66,14 @@
             "MahApps.Metro.IconPacks": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             },
             "System.IO.Ports": {
               "target": "Package",

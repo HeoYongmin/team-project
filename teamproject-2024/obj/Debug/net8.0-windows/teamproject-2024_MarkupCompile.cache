@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\Desktop\teamproject-2024\obj\Debug\net8.0-windows\
+C:\Sources\SmartFactory_Project\project\teamproject-2024\obj\Debug\net8.0-windows\
 teamproject_2024
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\user\Desktop\teamproject-2024\App.xaml
-5-1514658560
+C:\Sources\SmartFactory_Project\project\teamproject-2024\App.xaml
+61692275715
 
-81033912111
-240-362423731
-DbAddPage.xaml;InventoryPage.xaml;LoginPage.xaml;MainPage.xaml;MainWindow.xaml;
+11-578706527
+277-1383018166
+DbAddPage.xaml;InventoryPage.xaml;LoginPage.xaml;MainPage.xaml;MainWindow.xaml;Views\GraphPage.xaml;
 
 False
 
