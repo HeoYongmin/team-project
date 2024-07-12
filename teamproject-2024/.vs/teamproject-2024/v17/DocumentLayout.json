@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Sources\\team-project\\teamproject-2024\\",
+  "WorkspaceRootPath": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\dbaddpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\dbaddpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:dbaddpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\team-project\\teamproject-2024\\views\\graphpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:views\\graphpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\dbaddpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:dbaddpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|c:\\sources\\smartfactory_project\\project\\teamproject-2024\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718E965A-C993-44FB-999A-9638550A795B}|teamproject-2024.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,72 +43,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "LoginPage.xaml",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\LoginPage.xaml",
-              "RelativeToolTip": "LoginPage.xaml",
+              "Title": "DbAddPage.xaml",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\DbAddPage.xaml",
+              "RelativeDocumentMoniker": "DbAddPage.xaml",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\DbAddPage.xaml",
+              "RelativeToolTip": "DbAddPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T08:13:42.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T08:10:40.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T08:10:37.307Z"
+              "WhenOpened": "2024-07-12T03:16:55.602Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\LoginPage.xaml.cs",
-              "RelativeToolTip": "LoginPage.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAQwEQAAAAiAAAA",
+              "Title": "DbAddPage.xaml.cs",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\DbAddPage.xaml.cs",
+              "RelativeDocumentMoniker": "DbAddPage.xaml.cs",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\DbAddPage.xaml.cs",
+              "RelativeToolTip": "DbAddPage.xaml.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAIwNgAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:10:12.777Z",
+              "WhenOpened": "2024-07-12T02:49:28.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbAddPage.xaml.cs",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\DbAddPage.xaml.cs",
-              "RelativeDocumentMoniker": "DbAddPage.xaml.cs",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\DbAddPage.xaml.cs",
-              "RelativeToolTip": "DbAddPage.xaml.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "InventoryPage.xaml.cs",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "InventoryPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:08:52.911Z"
+              "WhenOpened": "2024-07-12T02:47:30.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "InventoryPage.xaml",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\InventoryPage.xaml",
+              "RelativeToolTip": "InventoryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-12T02:47:27.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GraphPage.xaml.cs",
-              "DocumentMoniker": "C:\\Sources\\team-project\\teamproject-2024\\Views\\GraphPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\GraphPage.xaml.cs",
-              "ToolTip": "C:\\Sources\\team-project\\teamproject-2024\\Views\\GraphPage.xaml.cs",
-              "RelativeToolTip": "Views\\GraphPage.xaml.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwCQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:08:44.897Z"
+              "WhenOpened": "2024-07-12T00:25:49.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Sources\\SmartFactory_Project\\project\\teamproject-2024\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-12T00:25:17.494Z"
             }
           ]
         }

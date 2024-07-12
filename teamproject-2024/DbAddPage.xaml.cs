@@ -18,6 +18,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Data.SqlClient;
+using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
 
 namespace teamproject_2024
 {
@@ -35,7 +37,7 @@ namespace teamproject_2024
             InitializeComponent();
         }
 
-        private void BtnRun_Click(object sender, RoutedEventArgs e)
+        private async void BtnRun_Click(object sender, RoutedEventArgs e)
         {
             if (port.IsOpen)
             {
@@ -43,11 +45,11 @@ namespace teamproject_2024
             }
             else
             {
-                MessageBox.Show("포트가 열려있지 않습니다.");
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "포트", "포트가 열려있지 않습니다");
             }
         }
 
-        private void BtnPause_Click(object sender, RoutedEventArgs e)
+        private async void BtnPause_Click(object sender, RoutedEventArgs e)
         {
             if (port.IsOpen)
             {
@@ -55,15 +57,15 @@ namespace teamproject_2024
             }
             else
             {
-                MessageBox.Show("포트가 열려있지 않습니다.");
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "포트", "포트가 열려있지 않습니다");
             }
         }
 
-        private void BtnConnect_Click(object sender, RoutedEventArgs e)
+        private async void BtnConnect_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                port.PortName = "COM5";
+                port.PortName = "COM3";
                 port.BaudRate = 9600;
                 port.DataBits = 8;
                 port.Parity = Parity.None;
@@ -73,28 +75,28 @@ namespace teamproject_2024
                 port.DataReceived += Arduino_DataReceived;
 
                 // 포트 열기 전 디버깅 메시지 추가
-                MessageBox.Show("포트를 엽니다");
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "포트", "포트를 엽니다");
                 port.Open();
 
                 // 포트를 연 후 디버깅 메시지 추가
-                MessageBox.Show("포트를 열었습니다");
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "포트", "포트를 열었습니다");
 
                 port.DiscardInBuffer();
                 if (port.IsOpen)
                 {
-                    MessageBox.Show("포트가 연결되었습니다");
+                    await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "포트", "포트가 연결되었습니다");
 
                 }
             }
 
             catch (Exception ex)
             {
-                MessageBox.Show("오류가 발생했습니다: " + ex.Message);
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "오류", "오류가 발생했습니다: " + ex.Message);
             }
             Select_Data();
         }
 
-        private void Arduino_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        private async void Arduino_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             try
             {
@@ -119,7 +121,7 @@ namespace teamproject_2024
             catch (Exception ex)
             {
                 // 예외 처리 (필요한 경우)
-                MessageBox.Show("데이터 수신 중 오류가 발생했습니다: " + ex.Message);
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "오류", "데이터 수신 중 오류가 발생했습니다: " + ex.Message);
             }
 
         }
@@ -139,7 +141,7 @@ namespace teamproject_2024
             Select_Data();
         }
 
-        private void Select_Data()
+        private async void Select_Data()
         {
             List<SmartLogistics> smartLogistics = new List<SmartLogistics>();
 
@@ -171,8 +173,71 @@ namespace teamproject_2024
             }
             catch (Exception ex)
             {
-                MessageBox.Show("데이터 조회 중 오류가 발생했습니다: " + ex.Message);
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "오류", "데이터 조회 중 오류가 발생했습니다: " + ex.Message);
             }
+        }
+
+
+        private void ProTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            if (ProTextBox != null && textBox.Text == "제품명 입력")
+            {
+                textBox.Text = string.Empty;
+                textBox.Foreground = new SolidColorBrush(Colors.Black); // 사용자 입력시 텍스트 색상
+            }
+        }
+
+        private void ProTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            if (textBox != null && string.IsNullOrWhiteSpace(textBox.Text))
+            {
+                SetWatermark(textBox, "제품명 입력");
+            }
+        }
+        private void SetWatermark(TextBox textBox, string watermark)
+        {
+            textBox.Text = watermark;
+            textBox.Foreground = new SolidColorBrush(Colors.Gray); // 워터마크 텍스트 색상
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(SmartLogisticsSystem.Helpers.Common.CONNSTRING))
+                {
+                    conn.Open();
+
+                    SqlCommand cmd = new SqlCommand(SmartLogisticsSystem.Models.SmartLogistics.INSERT_QUERY, conn);
+
+                    var selectedDiviItem = DiviComboBox.SelectedItem as ComboBoxItem;
+                    string division = selectedDiviItem?.Content.ToString();
+                    SqlParameter prmDivi = new SqlParameter("@Division", division);
+                    cmd.Parameters.Add(prmDivi);
+                    SqlParameter prmProduct = new SqlParameter("@Product", ProTextBox.Text);
+                    cmd.Parameters.Add(prmProduct);
+                    SqlParameter prmDate = new SqlParameter("@Date", DatePicker.SelectedDateTime);
+                    cmd.Parameters.Add(prmDate);
+
+                    var result = cmd.ExecuteNonQuery();
+
+                    if (result > 0)
+                    {
+                        await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "저장", "저장성공!");
+                    }
+                    else
+                    {
+                        await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "실패", "저장실패!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await DialogManager.ShowMessageAsync(Window.GetWindow(this) as MetroWindow, "오류" ,"오류 발생" + ex.Message);
+            }
+            Select_Data();
         }
     }
 }

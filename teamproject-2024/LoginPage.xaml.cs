@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
 
 namespace teamproject_2024
 {
@@ -11,6 +13,7 @@ namespace teamproject_2024
         public LoginPage()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen; // 화면 중앙에 표시되도록 설정
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
@@ -18,14 +21,14 @@ namespace teamproject_2024
             Login();
         }
 
-        private void Login()
+        private async void Login()
         {
             string id = txtID.Text;
-            string password = txtPassword.Text;
+            string password = txtPassword.Password;
 
             if (IsValidUser(id, password))
             {
-                MessageBox.Show("로그인 성공!");
+                await this.ShowMessageAsync("로그인", "로그인 성공!");
 
                 // MainPage로 이동
                 MainPage mainPage = new MainPage();
@@ -44,7 +47,7 @@ namespace teamproject_2024
             }
             else
             {
-                MessageBox.Show("로그인 실패. 다시 시도하세요.");
+                await this.ShowMessageAsync("로그인", "로그인 실패!");
             }
         }
 
@@ -73,19 +76,21 @@ namespace teamproject_2024
 
         private void txtPassword_GotFocus(object sender, RoutedEventArgs e)
         {
-            if (txtPassword.Text == "Password")
+            var passwordBox = sender as PasswordBox;
+            if (passwordBox.Password == "Password")
             {
-                txtPassword.Text = "";
-                txtPassword.Foreground = Brushes.Black;
+                passwordBox.Password = "";
+                passwordBox.Foreground = Brushes.Black;
             }
         }
 
         private void txtPassword_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrEmpty(txtPassword.Text))
+            var passwordBox = sender as PasswordBox;
+            if (string.IsNullOrEmpty(passwordBox.Password))
             {
-                txtPassword.Text = "Password";
-                txtPassword.Foreground = Brushes.LightGray;
+                passwordBox.Password = "Password";
+                passwordBox.Foreground = Brushes.LightGray;
             }
         }
 
